@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Film doesn't repeat the director/producer's name  1`] = `
+<div
+  className="film"
+>
+  <h1
+    className="title"
+  >
+    <a
+      href="http://www.google.com/search?q=Test%20Film"
+      target="_blank"
+    >
+      Test Film
+    </a>
+  </h1>
+  <p
+    className="text"
+  >
+    <i>
+      The Description
+    </i>
+  </p>
+  <button
+    className="btn"
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      I NEED MORE TEST FILM! 🤤
+    </span>
+  </button>
+  <span
+    className="filmmakers"
+  >
+    Directed and produced by The Director
+  </span>
+</div>
+`;
+
+exports[`Film renders without crashing 1`] = `
+<div
+  className="film"
+>
+  <h1
+    className="title"
+  >
+    <a
+      href="http://www.google.com/search?q=blah"
+      target="_blank"
+    >
+      blah
+    </a>
+  </h1>
+  <p
+    className="text"
+  >
+    <i>
+      blah
+    </i>
+  </p>
+  <button
+    className="btn"
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      I NEED MORE BLAH! 🤤
+    </span>
+  </button>
+  <span
+    className="filmmakers"
+  >
+    Directed and produced by blah
+  </span>
+</div>
+`;
+
+exports[`Film shows both director and producer  1`] = `
+<div
+  className="film"
+>
+  <h1
+    className="title"
+  >
+    <a
+      href="http://www.google.com/search?q=Test%20Film"
+      target="_blank"
+    >
+      Test Film
+    </a>
+  </h1>
+  <p
+    className="text"
+  >
+    <i>
+      The Description
+    </i>
+  </p>
+  <button
+    className="btn"
+    onClick={[Function]}
+    type="button"
+  >
+    <span>
+      I NEED MORE TEST FILM! 🤤
+    </span>
+  </button>
+  <span
+    className="filmmakers"
+  >
+    Directed by The Director and produced by The Producer
+  </span>
+</div>
+`;

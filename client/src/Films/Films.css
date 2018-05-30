@@ -1,0 +1,11 @@
+.films {
+  columns: 3 200px;
+  -moz-columns: 3 200px;
+  -webkit-columns: 3 200px;
+  column-gap: 0;
+}
+
+Film {
+  break-inside: avoid;
+  padding: 5px;
+}

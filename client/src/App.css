@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  font-family: "Fira Mono", monospace;
+  color: #8c7853;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #7851a9;
+  height: 150px;
+  padding: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}

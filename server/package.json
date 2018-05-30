@@ -1,0 +1,13 @@
+{
+  "name": "ghiblipedia-server",
+  "version": "1.0.0",
+  "description": "A GraphQL wrapper around the Studio Ghibli API",
+  "main": "index.js",
+  "author": "Dalton Scott",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^2.0.0-beta.2",
+    "axios": "^0.18.0",
+    "graphql": "^0.13.2"
+  }
+}
